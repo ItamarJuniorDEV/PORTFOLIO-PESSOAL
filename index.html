@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Itamar Alves Ferreira Junior - Desenvolvedor Backend">
+    <meta name="keywords" content="portfolio, resume, CV, desenvolvedor, backend, sistemas, TI">
+    <meta name="author" content="Itamar Alves Ferreira Junior">
+    <title>Itamar Junior</title>
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="icon" href="img/logoutItamar.png" type="image/png">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/logoutItamar.png" alt="Logout Itamar A.F.Junior" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">Serviços</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
+                    </ul>
+                    <!-- Botão para alternar tema -->
+                    <button id="theme-toggle" class="btn btn-light ml-3">Dark Mode</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-banner d-flex align-items-center justify-content-center text-center text-white">
+        <div class="container">
+            <h1 class="display-4">Itamar Alves Ferreira Junior</h1>
+            <p class="lead">Desenvolvedor Backend | Especialista em Node.js, PHP, Laravel, MySQL</p>
+            <a href="#contact" class="btn btn-light btn-lg">Entre em Contato</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <div class="row d-flex align-items-center text-center text-md-left">
+                <div class="col-lg-5 col-md-6 col-12">
+                    <img src="img/fotoItamar.jpg" class="img-fluid rounded-circle mx-auto d-block mb-4" alt="Itamar Alves Ferreira Junior">
+                </div>
+                <div class="col-lg-7 col-md-6 col-12">
+                    <h2>Sobre Mim</h2>
+                    <p>Sou Itamar Alves Ferreira Junior, desenvolvedor backend com vasta experiência em Node.js, PHP, Laravel e MySQL. Atuo na área de TI há mais de 3 anos, com foco em desenvolvimento de sistemas robustos e eficientes. Sempre busco me aprimorar e estar atualizado com as melhores práticas do mercado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Meus Serviços</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-box text-center">
+                        <div class="icon mb-3">
+                            <i class="fas fa-code fa-2x"></i>
+                        </div>
+                        <h4>Desenvolvimento Web</h4>
+                        <p>Criação e manutenção de sistemas web escaláveis e seguros.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-box text-center">
+                        <div class="icon mb-3">
+                            <i class="fas fa-cogs fa-2x"></i>
+                        </div>
+                        <h4>Integração de APIs</h4>
+                        <p>Desenvolvimento e integração de APIs RESTful com diversos sistemas.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="service-box text-center">
+                        <div class="icon mb-3">
+                            <i class="fas fa-tachometer-alt fa-2x"></i>
+                        </div>
+                        <h4>Otimização de Sistemas</h4>
+                        <p>Otimização de código e banco de dados para melhor performance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Meu Portfólio</h2>
+            </div>
+            <div class="row">
+                <!-- Portfolio Items -->
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="portfolio-item">
+                        <img src="img/projeto-hospedagem.jpeg" class="img-fluid" alt="Projeto 1">
+                        <div class="portfolio-description">
+                            <h4>Provedor de hospedagem</h4>
+                            <p>Desenvolvido com HTML e CSS, o site apresenta tabelas organizadas para exibir planos de hospedagem, demonstrando navegação entre páginas e estruturação de conteúdo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="portfolio-item">
+                        <img src="img/projeto-otica.jpeg" class="img-fluid" alt="Projeto 2">
+                        <div class="portfolio-description">
+                            <h4>Website para Ótica</h4>
+                            <p>Desenvolvido com React, este website apresenta informações sobre uma ótica, com navegação intuitiva e exibição dinâmica dos serviços e produtos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="portfolio-item">
+                        <img src="img/pousada.jpeg" class="img-fluid" alt="Projeto 3">
+                        <div class="portfolio-description">
+                            <h4>Website para Pousada</h4>
+                            <p>Desenvolvido com HTML, CSS e JavaScript, este site utiliza Flexbox, Box Model e navegação entre páginas para criar um layout estilizado e funcional, exibindo as informações principais e os detalhes dos quartos da pousada.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Contato</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <form id="contact-form" action="https://formspree.io/f/xdknlvwz" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" class="form-control" id="email" name="_replyto" placeholder="Digite seu e-mail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Digite sua mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                    </form>
+                    <div id="form-message" class="alert alert-success mt-3" style="display:none;">Mensagem enviada com sucesso!</div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-lg-8 col-md-10">
+                    <div class="contact-info text-center">
+                        <h4>Informações de Contato</h4>
+                        <p><i class="fas fa-phone"></i> +55 (55) 99179-7040</p>
+                        <p><i class="fas fa-envelope"></i> cdajuniorf@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Santa Maria, RS, Brasil</p>
+                        <a href="https://api.whatsapp.com/send?phone=5555991797040" target="_blank" class="btn btn-success mt-3"><i class="fab fa-whatsapp"></i> Chat WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-lg-8 col-md-10 text-center">
+                    <a href="https://www.facebook.com/junior.ferreiraii.7?mibextid=ZbWKwL" target="_blank" class="social-icon mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://github.com/pogtora" target="_blank" class="social-icon mx-2"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/juniorferreiraa1997?igsh=cXh5YnJyZ3o0NXJo" target="_blank" class="social-icon mx-2"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/itamar-junior-b24006237/" target="_blank" class="social-icon mx-2"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2024 Itamar Alves Ferreira Junior. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
