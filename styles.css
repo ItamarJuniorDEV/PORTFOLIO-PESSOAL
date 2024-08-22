@@ -107,16 +107,34 @@ a:hover {
   background-color: #DEF2F1;
 }
 
-.section h2 {
+.section-title {
   font-size: 36px;
   margin-bottom: 20px;
-  text-align: center;
   color: #17252A;
 }
 
 .section p {
   font-size: 18px;
   line-height: 1.6;
+}
+
+/* Alinhamento da seção 'Sobre Mim' */
+#about .row {
+  align-items: center;
+}
+
+#about .section-title {
+  text-align: left;
+}
+
+#about .foto-sobre-mim {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#about .col-lg-7 {
+  margin-top: 20px;
 }
 
 /* Services Section */
@@ -230,6 +248,7 @@ a:hover {
 .footer p {
   margin: 0;
   font-size: 14px;
+  color: #FEFFFF; /* Letras brancas no footer */
 }
 
 /* Tema Dark */
@@ -239,11 +258,11 @@ body.dark-theme {
 }
 
 body.dark-theme a {
-  color: #000; /* Alterado para preto no tema dark */
+  color: #3AAFA9; /* Mantém o link com verde claro */
 }
 
 body.dark-theme a:hover {
-  color: #3700b3;
+  color: #2B7A78; /* Verde mais escuro */
 }
 
 body.dark-theme .header, 
@@ -260,11 +279,11 @@ body.dark-theme .navbar-brand {
 }
 
 body.dark-theme .navbar-nav .nav-link {
-  color: #000 !important; /* Alterado para preto no tema dark */
+  color: #e0e0e0 !important; /* Ajustado para melhor visibilidade */
 }
 
 body.dark-theme .navbar-nav .nav-link:hover {
-  color: #3700b3 !important;
+  color: black !important;
 }
 
 body.dark-theme .home-banner {
@@ -286,6 +305,19 @@ body.dark-theme .btn-primary:hover {
 
 body.dark-theme .footer {
   background-color: #1f1f1f;
+  color: #e0e0e0;
+}
+
+body.dark-theme h1, 
+body.dark-theme h2, 
+body.dark-theme h4,
+body.dark-theme #about .section-title {
+  color: #2B7A78 !important; /* Forçando a cor verde para o título no Dark Mode */
+}
+
+body.dark-theme p,
+body.dark-theme #about p {
+  color: black !important; /* Forçando a cor preta para o texto no Dark Mode */
 }
 
 /* Responsive Styles */
@@ -358,7 +390,7 @@ body.dark-theme .footer {
       margin-bottom: 20px;
   }
 
-  .section-title h2 {
+  .section-title {
       font-size: 28px;
   }
 }
